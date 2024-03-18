@@ -58,3 +58,6 @@ def test_minus():
     assert Calculator.minus(-1) == 1
     assert Calculator.minus(0.5) == -0.5
     assert Calculator.minus(0) == 0
+
+def test_random_function():
+    assert Calculator.random_function() == 0

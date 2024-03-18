@@ -30,3 +30,8 @@ class Calculator:
 
     def minus(x):
         return -x
+    
+    def random_function():
+        print("hi")
+        print("bye")
+        return 0
