@@ -11,7 +11,7 @@ codecovcli-helper create-report
 codecovcli-helper do-upload --file coverage/coverage_x.xml -F x --disable-search
 
 git stash
-git checkout 0353867f2ad1fa45912d22440deecb2d06b3f3e1
+git checkout 2a041f4706a8f0d6c7bb2f23757bba555c841b66
 codecovcli-helper create-commit
 codecovcli-helper create-report
 codecovcli-helper do-upload --file coverage/coverage_y.xml -F y --disable-search
